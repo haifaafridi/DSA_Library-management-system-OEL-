@@ -58,6 +58,7 @@ b.borrowBook(studentName, bookID);
 cpp
 Copy code
 b.returnBook(studentName, bookID);
+
 🔍 Bubble Sort Usage
 Bubble Sort is used to sort books alphabetically by title before displaying.
 
@@ -70,29 +71,16 @@ for (int i = 0; i < count - 1; i++) {
         }
     }
 }
+
 ▶️ How to Run
 Using VS Code / Command Line
 bash
 Copy code
 g++ main.cpp -o library
 ./library
-⚠ Note About tempCodeRunnerFile.cpp
-VS Code automatically creates this temporary file when using Code Runner.
-It is not required and can be deleted safely.
-(You should avoid pushing it to GitHub.)
 
-📄 Outputs
-Insert screenshots for:
 
-Adding a book
 
-Displaying books
-
-Searching
-
-Borrowing
-
-Returning
 
 👤 Author
 Haifa Khan Afridi, Emman khattak
